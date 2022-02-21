@@ -1,5 +1,6 @@
 :root {
   --body-background-color: #fff;
+  --text-color: #fff;
   --body-text-color: black;
   --profile_btn-color: #fff;
   --about-btn-hover: blue;
@@ -39,13 +40,20 @@ h2 {
   background-color: var(--body-background-color);
   position: relative;
   left: 41.2%;
+  border: 2px solid black;
+  width: max-content;
+  padding: 4px;
+  border-radius: 5px;
 }
 
 #about_btn {
   position: relative;
   left: 43.9%;
   padding: 5px;
-  border-radius: 15px;
+  border: 2px solid black;
+  width: max-content;
+  padding: 4px;
+  border-radius: 5px;
 }
 
 #about_btn a {
@@ -59,7 +67,14 @@ h2 {
 
 #about_btn a:visited {
   text-decoration: none;
-  background-color: var(--about-btn-a-visited);
+  background-color: var(--text-color);
+}
+
+#contact_btn {
+  border: 2px solid black;
+  width: max-content;
+  padding: 4px;
+  border-radius: 5px;
 }
 
 a {
@@ -82,10 +97,10 @@ li a:active {
   color: var(--li-a-activated);
 }
 
-/* button a:hover {
+#profile_btn:hover {
   background-color: black;
   color: white;
-} */
+}
 
 .message_btn:hover {
   background-color: var(--body-text-color);
@@ -146,7 +161,7 @@ li a:active {
   width: 100px;
   height: 100px;
   position: relative;
-  left: 33.5%;
+  left: 50.5%;
   margin-bottom: 2%;
   animation-name: enlarge;
   animation-duration: 2s;
