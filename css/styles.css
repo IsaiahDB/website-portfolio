@@ -10,7 +10,7 @@
   --a-active: red;
   --li-a-hover: blue;
   --li-a-activated: lightcoral;
-  --grid-item-color: lightgrey;
+  --grid-item-color: rgba(211, 211, 211, 0.079);
 }
 
 
@@ -193,6 +193,10 @@ li a:active {
 
 .grid__item {
   background-color: var(--grid-item-color);
+}
+
+#portfolio {
+  background-color: url("/img/assets/portfolioapp.png");
 }
 
 .social-media {

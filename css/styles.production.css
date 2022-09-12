@@ -205,6 +205,7 @@ li a:active {
   padding: 20px;
   margin-top: 5px;
   margin-bottom: 20px;
+
 }
 
 
@@ -258,8 +259,46 @@ li a:active {
   justify-content: center;
 }
 
-.grid__item {
-  background-color: lightgrey;
+.grid__item h2 {
+  color: black;
+  border: 2px solid;
+  background-color: #777;
+}
+
+#portfolio {
+  background-image: url("/img/assets/portfolioapp.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#apiapp {
+  background-image: url("/img/assets/apiapp.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#angular {
+  background-image: url("/img/assets/angularapp.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#native {
+  background-image: url("/img/assets/react_native.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#react {
+  background-image: url("/img/assets/reactapp.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#simple {
+  background-image: url("/img/assets/simplejsapp.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .social-media {
